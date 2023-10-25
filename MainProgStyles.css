@@ -1,0 +1,135 @@
+html , body {
+    position:relative;
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+.ProgContainer
+{
+    margin:auto;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: "..... Header" "SideBar MainArea";
+    grid-template-columns: 12% 88%;
+    grid-template-rows: 15% 85%;
+
+    position: relative;
+
+    /* border: 6px solid rgb(24, 42, 90) ;*/
+
+}
+
+.TopMenu
+{
+    grid-area: Header;
+    position:relative;
+    display:flex;
+    /*//border: 6px solid rgb(11, 144, 253);*/
+    width: 100%;
+    height: 98%;
+    font-size:1vw;
+    border-radius: 3vmin;
+    background-color: rgb(126, 147, 170);
+    Margin:auto;
+    align-items: center;
+    
+    align-self:center;
+    float:center;
+}
+
+.SideBar
+{
+    grid-column-end: 1rem;
+    grid-area: SideBar;
+    width: 95%;
+    height: 100%;
+    /*//border: 6px solid rgb(24, 90, 41);*/
+    font-size:1vw;
+    border-radius: 3vmin;
+    background-color: rgb(126, 147, 170);
+
+    align-self:center;
+    float:center;
+    Margin:auto;
+}
+
+.MainArea
+{
+    width: 100%;
+    height: 98%;
+    grid-area: MainArea;
+   /* //border: 6px solid rgb(90, 89, 24);*/
+    font-size:1vw;
+    border-radius: 3vmin;
+    background-color: rgb(126, 147, 170);
+    Margin:auto;
+    align-self:center;
+    align-content: center;
+}
+
+.SideNavButton
+{
+    width: 90%;
+    height: 20%;
+    border: 1px solid rgb(31, 85, 51);
+    font-size:1vw;
+    border-radius: 3vmin;
+    background-color: rgb(84, 189, 124);
+    Margin:auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3.5vh;
+    color: black;
+}
+.SideNavButton:hover
+{
+    background-color: rgb(107, 226, 153);
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+/*
+.Footer
+{
+    grid-area: Footer;
+    //border: 6px solid rgb(90, 24, 44);
+    width: 100%;
+    height: 98%;
+    font-size:1vw;
+    border-radius: 3vmin;
+    background-color: rgb(126, 147, 170);
+    Margin:auto;
+}
+*/
+
+.WeighTab
+{
+    width: 90%;
+    height: 90%;
+    border: 1px solid rgb(31, 85, 51);
+    font-size:1vw;
+    border-radius: 3vmin;
+    background-color: rgb(84, 189, 124);
+    Margin:auto;
+    display:inline-block;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3.5vh;
+    color: black;
+
+}
+.WeighTab:hover
+{
+    background-color: rgb(107, 226, 153);
+    color: black; 
+    border: 2px solid #008CBA;
+}

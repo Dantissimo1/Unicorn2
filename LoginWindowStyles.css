@@ -1,0 +1,102 @@
+body {
+    position:relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(43, 255, 0, 0);
+    margin:auto;
+}
+
+
+.LoginContainer {
+    position:relative;
+    border-radius: 25px;    
+    border: 6px solid rgb(24, 42, 90);
+    height: 95%;
+    width: 70%;
+    margin:auto;
+    background-color: rgb(126, 147, 170);
+    max-width: 800px;
+}
+
+.LoginWindow {
+    position:relative;
+    height: 65%;
+    width: 80%;
+    margin:auto;
+    /*background-color: rgb(88, 121, 211,100);*/
+    float:center;
+    text-align:center;
+}
+
+
+.LoginInputfield{
+    position:relative;
+    margin:1%;
+    width:100%;
+    height:15%;
+    /*border: 4px solid Black;*/
+    border-radius: 12px;
+    font-size:2vw;
+    text-align: center;
+}
+
+#LoginForm{
+    margin:auto;
+    width:100%;
+    height:80%;
+   /* border: 4px solid Black;*/
+}
+
+#LoginHeadContainer
+{
+    margin:auto;
+    width:100%;
+    height:45%;
+    color:black;
+    padding-top:0%;
+    padding-bottom:0%;
+    /*border: 4px solid Black;*/
+}
+
+#LoginHead
+{
+    margin:auto;
+    width:100%;
+    height:60%;
+    color:black;
+    font-size:4vw;
+
+}
+#LoginDesc
+{
+    margin:auto;
+    width:100%;
+    height:40%;
+    color:black;
+    font-size:2vw;
+
+}
+
+.LoginButton
+{
+    font-display: relative;
+    width:60%;
+    height:15%;
+    color:black;
+    font-size:100%;
+    padding-top:.5%;
+    padding-bottom:1%;
+    border: 4px solid Black;
+    border-radius: 12px;
+}
+
+.Header
+{
+    display: grid;
+    grid-template-areas: "TitleArea CompanyArea UserSection" ;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 100%;
+
+}
+
+

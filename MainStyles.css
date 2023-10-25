@@ -1,0 +1,186 @@
+html {    position:absolute; height: 100%;
+    width: 100%;}
+
+body {
+    position:relative; 
+    height: 100%;
+    width: 100%;
+    background-color: rgb(218, 236, 255);
+    float:center;
+}
+
+.MainContainer {
+        position:absolute ;
+        width: 98%;
+        height: 98%;
+        background-color: rgb(218, 236, 255);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: grid;
+        grid-template-areas:"Header" "MainWindow";
+        grid-template-columns: 95%;
+        grid-template-rows: 15% 80%;
+
+
+    
+}
+
+.MainHeader
+{
+    
+    margin: auto;
+    position:relative;
+    width: 100%;
+    height: 100%;
+    float:center;
+    z-index: 1;
+     grid-template-areas: "TitleArea CompanyArea UserSection";
+    display: grid;
+    grid-template-columns: 8% 67% 25%;
+    grid-template-rows: 100%; 
+    border-radius: 3vmin;
+    background-color: rgb(126, 147, 170);
+    box-shadow: rgba(0, 0, 0, 0.397) 0px 25px 50px -12px;
+
+
+
+}
+
+.MainWindow
+{
+    margin-top:.5%;
+    position:relative;
+    width: 100%;
+    height: 100%;
+    float:center;
+    z-index: 2;
+    border-radius: 3vmin;
+    background-color: rgb(189, 203, 219);
+    box-shadow: rgba(0, 0, 0, 0.397) 0px 25px 50px -12px;
+    padding:.5%;
+    
+}
+
+#LoginFrame {
+    position:relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(244, 0, 0,0);
+    float:center;
+    z-index: 2;
+
+
+}
+
+
+
+.TitleArea
+{
+    /* align-self: center; */
+    
+    Margin-top:auto;
+    height: 100%;
+    width: 100%;
+
+    /* display: grid;60
+    grid-template-areas: "..... Header" "SideBar MainArea";
+    grid-template-columns: 12% 88%;
+    grid-template-rows: 15% 85%; */
+    float:inline-start;
+    position: relative;
+
+
+    /* border: 6px solid rgb(24, 42, 90) ;*/
+    border-radius: 3vmin;
+    
+    border: 1px solid rgb(24, 42, 90);
+    background-color: rgb(99, 206, 106);
+    box-shadow: rgba(0, 0, 0, 0.397) 0px 25px 50px -12px;
+
+    font-size:1vw;
+    text-align: center;
+
+}
+
+.CompanyArea
+{
+    /* align-self: center; */
+    
+    Margin-top:auto;
+    height: 100%;
+    width: 100%;
+
+    /* display: grid;
+    grid-template-areas: "..... Header" "SideBar MainArea";
+    grid-template-columns: 12% 88%;
+    grid-template-rows: 15% 85%; */
+    float:center;
+    position: relative;
+
+
+    /* border: 6px solid rgb(24, 42, 90) ;*/
+    border-radius: 3vmin;
+    
+    border: 1px solid rgb(24, 42, 90);
+    background-color: rgb(99, 206, 106);
+    box-shadow: rgba(0, 0, 0, 0.397) 0px 25px 50px -12px;
+
+    font-size:1vw;
+
+}
+
+
+
+.UserSection
+{
+
+    /* align-self: center; */
+    
+    Margin:auto;
+    height: 98%;
+    width: 100%;
+
+    /* display: grid;
+    grid-template-areas: "..... Header" "SideBar MainArea";
+    grid-template-columns: 12% 88%;
+    grid-template-rows: 15% 85%; */
+    float:center;
+    position: relative;
+
+
+    /* border: 6px solid rgb(24, 42, 90) ;*/
+    border-radius: 3vmin;
+    
+    border: 1px solid rgb(24, 42, 90);
+    background-color: rgb(99, 206, 106);
+    box-shadow: rgba(0, 0, 0, 0.397) 0px 25px 50px -12px;
+
+    font-size:1vw;
+
+}
+
+#UserDisplayArea
+{
+    Margin:auto;
+    padding: 4%;
+    height: 70%;
+    width: 90%;
+    position: relative;
+    float:center;
+    border-radius: 3vmin;  
+    /*border: 1px solid rgb(24, 42, 90);*/
+    background-color: rgba(255, 255, 255, 0); 
+    font-size:2vw;
+    text-align: center;
+
+}
+
+.LogOutButton
+{
+    height: 60%;
+    width: 70%;
+    font-size:2vw;
+    background-color: rgba(255, 255, 255, 0);
+
+}

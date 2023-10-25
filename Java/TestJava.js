@@ -1,0 +1,1 @@
+document.getElementsByClassName("MainArea")[0].innerHTML = "Hello JavaScript";
